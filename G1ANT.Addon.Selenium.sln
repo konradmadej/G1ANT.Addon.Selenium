@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.Selenium", "G1ANT.Addon.Selenium\G1ANT.Addon.Selenium.csproj", "{C75BD44D-28DD-4F02-8144-A1DEE841E4F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G1ANT.Addon.Selenium.Tests", "G1ANT.Addon.Selenium.Tests\G1ANT.Addon.Selenium.Tests.csproj", "{F6E39D33-0D20-4484-AE1F-17DED37E8E47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C75BD44D-28DD-4F02-8144-A1DEE841E4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C75BD44D-28DD-4F02-8144-A1DEE841E4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C75BD44D-28DD-4F02-8144-A1DEE841E4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E39D33-0D20-4484-AE1F-17DED37E8E47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E39D33-0D20-4484-AE1F-17DED37E8E47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E39D33-0D20-4484-AE1F-17DED37E8E47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E39D33-0D20-4484-AE1F-17DED37E8E47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
