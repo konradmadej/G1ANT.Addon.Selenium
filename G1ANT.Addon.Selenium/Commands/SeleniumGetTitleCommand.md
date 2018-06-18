@@ -4,7 +4,6 @@
 
 ```G1ANT
 selenium.gettitle
-
 ```
 
 **Description:**
@@ -30,10 +29,9 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.Selenium
 selenium.open type ‴firefox‴ url ‴google.com‴
 selenium.gettitle result ♥title
 dialog ♥title
-
 ```
 
-!{IMAGE-LINK+2017-11-15-selenium-gettitle}! 
+ 
 
 **Example 2:**
 
@@ -41,5 +39,4 @@ dialog ♥title
 selenium.open type ‴firefox‴ url ‴facebook.com‴
 selenium.gettitle result ♥title
 dialog ♥title
-
 ```

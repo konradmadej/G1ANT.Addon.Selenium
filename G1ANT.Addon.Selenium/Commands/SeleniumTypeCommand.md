@@ -4,7 +4,6 @@
 
 ```G1ANT
 selenium.type  text ‴‴  search ‴‴ 
-
 ```
 
 **Description:**
@@ -17,7 +16,7 @@ Command `selenium.type` types text into an element.
 |`search`| [string](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | yes |   | phrase to find element by |
 |`by`| [string](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no |  | specifies an element, accepts ‘name’,‘text’,‘title’,‘class’,‘id’,‘selector’,‘query’,‘jquery’ |
 |`if`| [bool](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no | true | runs the command only if condition is true |
-|`timeout`| [variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Special-Characters/variable.md) | no | "♥timeoutselenium":{TOPIC-LINK+special-variables} | specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
+|`timeout`| [variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Special-Characters/variable.md) | no | [♥timeoutselenium](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Variables/Special-Variables.md) | specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 |`errorjump` | [label](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no | | name of the label to jump to if given `timeout` expires |
 |`errormessage`| [string](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no |  | message that will be shown in case error occurs and no `errorjump` argument is specified |
 
@@ -34,5 +33,4 @@ selenium.type text ‴robotic process automation‴ search ‴search_form_input_
 selenium.click search ‴search_button_homepage‴ by ‴id‴
 selenium.type text ‴ g1ant‴ search ‴search_form_input‴ by ‴id‴
 selenium.presskey key ‴enter‴ search ‴search_button‴ by ‴id‴
-
 ```

@@ -4,7 +4,6 @@
 
 ```G1ANT
 selenium.open  type ‴mozilla‴ 
-
 ```
 
 **Description:**
@@ -18,7 +17,7 @@ Command `selenium.open` opens new instance of chosen web browser and optionally 
 |`nowait` | "nowait":{TOPIC-LINK+boolean}| no | false | waits until the webpage fully loads  |
 |`result` | [variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Special-Characters/variable.md) | no | [♥result](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Common-Arguments.md)  | stores the result of the command in a variable |
 |`if`| [bool](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no | true | runs the command only if condition is true |
-|`timeout`| [variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Special-Characters/variable.md) | no | "♥timeoutselenium":{TOPIC-LINK+special-variables} | specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
+|`timeout`| [variable](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Special-Characters/variable.md) | no | [♥timeoutselenium](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Variables/Special-Variables.md) | specifies time in milliseconds for G1ANT.Robot to wait for the command to be executed |
 |`errorjump` | [label](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no | | name of the label to jump to if given `timeout` expires |
 |`errormessage`| [string](https://github.com/G1ANT-Robot/G1ANT.Manual/blob/master/G1ANT-Language/Structures/bool.md) | no |  | message that will be shown in case error occurs and no `errorjump` argument is specified |
 
@@ -31,10 +30,9 @@ See: https://github.com/G1ANT-Robot/G1ANT.Addon.Selenium
 
 ```G1ANT
 selenium.open type ‴firefox‴ url ‴https://www.google.co.uk/search?q=g1ant‴
-
 ```
 
-!{IMAGE-LINK+2016-11-11-1}! 
+ 
 
 **Example 2:**
 
@@ -44,5 +42,4 @@ This example opens website and waits 5 seconds (using `delay` command) till it w
 selenium.open type ‴firefox‴ url ‴www.irpanetwork.com‴
 delay 5
 keyboard ⋘tab 2⋙⋘enter⋙
-
 ```
